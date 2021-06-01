@@ -1,6 +1,6 @@
 package main
 
-import "github.com/pterm/cli-template/cmd"
+import "github.com/MarvinJWendt/gomark/cmd"
 
 func main() {
 	cmd.Execute()

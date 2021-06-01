@@ -11,7 +11,7 @@
 ### Windows Command
 
 ```powershell
-iwr instl.sh/pterm/cli-template/windows | iex
+iwr instl.sh/MarvinJWendt/gomark/windows | iex
 ```
 
 #### ** Linux **
@@ -19,7 +19,7 @@ iwr instl.sh/pterm/cli-template/windows | iex
 ### Linux Command
 
 ```bash
-curl -sSL instl.sh/pterm/cli-template/linux | sudo bash
+curl -sSL instl.sh/MarvinJWendt/gomark/linux | sudo bash
 ```
 
 #### ** macOS **
@@ -27,7 +27,7 @@ curl -sSL instl.sh/pterm/cli-template/linux | sudo bash
 ### macOS Command
 
 ```bash
-curl -sSL instl.sh/pterm/cli-template/macos | sudo bash
+curl -sSL instl.sh/MarvinJWendt/gomark/macos | sudo bash
 ```
 
 #### ** Compile from source **
@@ -41,7 +41,7 @@ Compiling cli-template from source has the benefit that the build command is the
 It is not recommended to install Go only for the installation of cli-template.
 
 ```command
-go install github.com/pterm/cli-template@latest
+go install github.com/MarvinJWendt/gomark@latest
 ```
 
 <!-- tabs:end -->
