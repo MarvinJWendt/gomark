@@ -1,9 +1,8 @@
-# cli-template
+# gomark
 
-> This cli template shows the date and time in the terminal
+> Gomark generates markdown documentation for Go packages
 
-This is a template CLI application, which can be used as a boilerplate for awesome CLI tools written in Go.
-This template prints the date or time to the terminal.
+You can use Gomark to generate markdown documentations for your Go packages.
 
 [Installation](installation.md)
 [Docs](docs.md)

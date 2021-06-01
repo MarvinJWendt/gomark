@@ -1,23 +1,14 @@
-# cli-template
+# gomark
 
 ## Usage
-> This cli template shows the date and time in the terminal
+> Gomark generates markdown documentation for Go packages
 
-cli-template [global options] command [options] [arguments...]
+gomark [global options] command [options] [arguments...]
 
 ## Description
 
 ```
-This is a template CLI application, which can be used as a boilerplate for awesome CLI tools written in Go.
-This template prints the date or time to the terminal.
-```
-## Examples
-
-```bash
-cli-template date
-cli-template date --format 20060102
-cli-template time
-cli-template time --live
+You can use Gomark to generate markdown documentations for your Go packages.
 ```
 
 ## Flags
@@ -30,53 +21,21 @@ cli-template time --live
 ## Commands
 |Command|Usage|
 |-------|-----|
-|`cli-template date`|Prints the current date.|
-|`cli-template help`|Help about any command|
-|`cli-template time`|Prints the current time|
-# ... date
-`cli-template date`
-
-## Usage
-> Prints the current date.
-
-cli-template [global options] command [options] [arguments...]
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-f, --format string`|specify a custom date format (default "02 Jan 06")|
+|`gomark help`|Help about any command|
 # ... help
-`cli-template help`
+`gomark help`
 
 ## Usage
 > Help about any command
 
-cli-template [global options] command [options] [arguments...]
+gomark [global options] command [options] [arguments...]
 
 ## Description
 
 ```
 Help provides help for any command in the application.
-Simply type cli-template help [path to command] for full details.
+Simply type gomark help [path to command] for full details.
 ```
-# ... time
-`cli-template time`
-
-## Usage
-> Prints the current time
-
-cli-template [global options] command [options] [arguments...]
-
-## Description
-
-```
-You can print a live clock with the '--live' flag!
-```
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-l, --live`|live output|
 
 
 ---
