@@ -14,8 +14,10 @@ You can use Gomark to generate markdown documentations for your Go packages.
 ## Flags
 |Flag|Usage|
 |----|-----|
-|`--debug`|enable debug messages|
+|`-d, --debug`|enable debug messages|
 |`--disable-update-checks`|disables update checks|
+|`-o, --output string`|output path|
+|`-p, --path string`|path to search for go files (default ".")|
 |`--raw`|print unstyled raw output (set it if output is written to a file)|
 
 ## Commands
@@ -39,4 +41,4 @@ Simply type gomark help [path to command] for full details.
 
 
 ---
-> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 01 June 2021**
+> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 06 June 2021**
