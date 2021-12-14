@@ -6,5 +6,5 @@ require (
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/pterm/pcli v0.4.1
 	github.com/pterm/pterm v0.12.22
-	github.com/spf13/cobra v1.1.3
+	github.com/spf13/cobra v1.3.0
 )
